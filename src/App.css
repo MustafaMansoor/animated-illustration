@@ -1,0 +1,26 @@
+.bg_frame{
+  position:absolute;
+  width:100%;
+  
+  display:flex;
+  justify-content: space-between;
+  top:0;
+  right:0;
+  
+  height:100vh;
+  overflow: hidden;
+}
+@media (max-width:1200px){
+  .bg_frame{
+    justify-content: center;
+    
+    /* justify-content: center; */
+    /* height:69%; */
+  }
+}
+
+
+
+
+
+

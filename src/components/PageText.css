@@ -1,0 +1,110 @@
+.page_text{
+    position: absolute;
+    display:block;
+    width:550px;
+    
+    margin-left:10%;
+    margin-top:15%;
+    
+    
+    color:#18242A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  @media (max-width:1200px){
+    .page_text{
+      margin-left: 0;
+      margin-top: 0;
+      bottom: 1vh;
+      text-align: center;
+    }
+  }
+  
+  .page_text h1{
+    margin-bottom: 0;
+    margin-top:5%;
+    transform:translateY(-25%);
+    font-size: 3.25rem;
+    letter-spacing: 1px;
+    line-height: 55px;
+  }
+  .page_text span{
+    
+    display:block;
+    
+    margin-top: 5%;
+    transform:translateY(-100%);
+    letter-spacing: 0;
+    font-size:1.4rem;
+    
+  }
+  
+    @media(max-width:1200px){
+      .page_text h1{
+        font-size:1.6rem;
+        line-height: 30px;
+      }
+      .page_text span{
+        font-size: 1.1rem;
+        letter-spacing: 0;
+        
+      }
+    }
+  
+  @media (max-width:1200px){
+    .page_text{
+      width:320px;
+      
+    }
+  }
+  .button_container{
+    display:flex;
+    position:relative;
+    margin-top: 5%;
+    transform:translateY(-50%);
+    
+  }
+  @media(max-width:1200px){
+    .button_container{
+      justify-content: center;
+    }
+  }
+  .page_button{
+    display:flex;
+    position: relative;
+    border:2px solid rgb(241, 72, 106);
+    background:white;
+    border-radius:4em;
+    color:rgb(241, 72, 106);
+    cursor:pointer;
+    min-height:45px;
+    justify-content: center;
+    
+    align-items: center;
+    white-space: nowrap;
+    width:160px;
+    
+    
+    
+    transition:background 0.6s,color 0.6s;
+  }
+  .page_button span{
+    
+    position:relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    top: 17px;
+    letter-spacing: 0;
+    font-size: 18px;
+  
+  }
+  @media(max-width:600px){
+    .page_button span{
+      font-size: 16px;
+  
+    }
+  }
+  .page_button:hover{
+    background: rgb(241, 72, 106);
+    color:white
+  }
