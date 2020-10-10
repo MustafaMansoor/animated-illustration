@@ -10,9 +10,9 @@ import PageLinks from './components/PageLinks'
 
 function App() {
   
-  const [text,setText]=useState(0)
+  const [text,setText]=useState(-1)
   const [radio,setRadio]=useState(-1)
-  const [imageFrame,setImageFrame]=useState(0)
+  const [imageFrame,setImageFrame]=useState(-1)
   const [bar,setBar]=useState([0,0,0])
 
   
